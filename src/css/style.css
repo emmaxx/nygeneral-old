@@ -20,8 +20,6 @@ h1, h2, h3, h4, h5, h6 {
 #mission-statement{
   height: 100vh;
 }
-#services{
-}
 #areas{
   height: 70vh;
 }
@@ -73,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #28ABE3;
 }
 .contact-form{
-  background-image: url("/assets/images/mission-statement.jpeg");
+  background-image: url("/nygeneral/assets/images/mission-statement.jpeg");
   background-size: cover;
   color: #fff;
   position: relative;
@@ -187,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-area {
-  background-image: url("/assets/images/mission-statement.jpeg");
+  background-image: url("/nygeneral/assets/images/mission-statement.jpeg");
   background-size: cover;
   height: 60vh;
   position: relative;
