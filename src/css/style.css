@@ -17,13 +17,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#mission-statement{
-  height: 100vh;
-}
-#areas{
-  height: 70vh;
-}
-
 .section {
   padding: 100px 0;
 }
@@ -92,6 +85,57 @@ h1, h2, h3, h4, h5, h6 {
 .contact-form legend{
   color:#fff;
 }
+
+.hero-area {
+  background-size: cover;
+  height: 60vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-area:before {
+  content: '';
+  background: rgba(0, 0, 0, 0.63);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.hero-area .block {
+  color: #fff;
+}
+
+.hero-area .block h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.hero-area .block p {
+  color: #fff;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.dark-bg {
+  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
 
 /*=================================================================
   Navigation
@@ -183,58 +227,6 @@ h1, h2, h3, h4, h5, h6 {
 .sticky-header .logo-default {
   display: block;
 }
-
-.hero-area {
-  background-image: url("/nygeneral/src/assets/images/mission-statement.jpeg");
-  background-size: cover;
-  height: 60vh;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.hero-area:before {
-  content: '';
-  background: rgba(0, 0, 0, 0.63);
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.hero-area .block {
-  color: #fff;
-}
-
-.hero-area .block h1 {
-  font-size: 60px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
-
-.hero-area .block p {
-  color: #fff;
-  width: 50%;
-  margin-bottom: 20px;
-}
-
-.dark-bg {
-  background: rgba(0, 0, 0, 0.7);
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-}
-
 /*=================================================================
   Item counter section
 ==================================================================*/
@@ -285,7 +277,7 @@ h1, h2, h3, h4, h5, h6 {
 ==================================================================*/
 .footer {
   text-align: center;
-  background-color: #1b1b1b;
+  background-color: #fff;
   border-top: 1px solid #2c2c2c;
   padding: 30px 0;
 }
@@ -293,7 +285,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer h5 {
   font-size: 12px;
   line-height: 1;
-  color: #888888;
+  color: #000;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -304,11 +296,22 @@ h1, h2, h3, h4, h5, h6 {
 .footer h6 {
   font-size: 11px;
   line-height: 15px;
-  color: #888888;
+  color: #000;
   font-weight: 400;
   text-transform: capitalize;
   letter-spacing: 2px;
   margin-bottom: 0;
+}
+
+.footer-nav{
+  padding:15px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: .2s ease-in-out 0s;
+  border-top: 1px solid #2c2c2c;
 }
 
 .footer a {
@@ -439,6 +442,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     border-bottom: 1px solid transparent;
   }
+
 }
 
 /*============================================================
