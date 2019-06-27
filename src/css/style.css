@@ -64,7 +64,6 @@ h1, h2, h3, h4, h5, h6 {
   background: #28ABE3;
 }
 .contact-form{
-  background-image: url("/nygeneral/src/assets/images/mission-statement.jpeg");
   background-size: cover;
   color: #fff;
   position: relative;
@@ -135,7 +134,6 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   z-index: -1;
 }
-
 
 /*=================================================================
   Navigation
