@@ -52,17 +52,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
-.title.title-white h2 {
-  color: #fff;
-}
-
-.border {
-  height: 2px;
-  margin: 20px auto 20px;
-  position: relative;
-  width: 80px;
-  background: #28ABE3;
-}
 .contact-form{
   background-size: cover;
   color: #fff;
@@ -169,46 +158,6 @@ h1, h2, h3, h4, h5, h6 {
   background: none;
 }
 
-.navigation .dropdown {
-  padding: 0;
-}
-
-.navigation .dropdown .dropdown-menu {
-  border-radius: 0;
-  -webkit-transform-origin: top;
-          transform-origin: top;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-transform: scale(1, 0);
-          transform: scale(1, 0);
-  background-color: #000;
-  display: block;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out,-webkit-transform 0.3s;
-  transition: transform 0.3s,opacity 0.3s ease-in-out;
-  transition: transform 0.3s,opacity 0.3s ease-in-out,-webkit-transform 0.3s;
-}
-
-.navigation .dropdown .dropdown-menu li a {
-  padding: 8px 15px;
-  color: #9d9d9d;
-}
-
-.navigation .dropdown .dropdown-menu li a:hover {
-  padding-left: 20px;
-  background: transparent;
-  color: #fff;
-}
-
-.navigation .dropdown:hover .dropdown-menu {
-  transition: opacity 0.3s ease-in-out,-webkit-transform 0.3s;
-  transition: transform 0.3s,opacity 0.3s ease-in-out;
-  transition: transform 0.3s,opacity 0.3s ease-in-out,-webkit-transform 0.3s;
-  -webkit-transform: scale(1, 1);
-  transform: scale(1, 1);
-  opacity: 1;
-}
-
 .sticky-header {
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
   background: #fff !important;
@@ -224,50 +173,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .sticky-header .logo-default {
   display: block;
-}
-/*=================================================================
-  Item counter section
-==================================================================*/
-.counters-item {
-  padding-bottom: 30px;
-  position: relative;
-}
-
-.counters-item.kill-border:before {
-  background: none;
-}
-
-.counters-item:before {
-  background: #e5e5e5;
-  content: "";
-  margin-top: -27.5px;
-  height: 55px;
-  width: 1px;
-  position: absolute;
-  right: -15px;
-  top: 50%;
-}
-
-.counters-item > div {
-  margin: 6px 0;
-}
-
-.counters-item span {
-  display: inline;
-  font-size: 35px;
-  font-weight: 700;
-  line-height: 50px;
-}
-
-.counters-item i {
-  font-size: 40px;
-  display: inline-block;
-  color: #28ABE3;
-}
-
-.counters-item h3 {
-  font-size: 18px;
-  margin: 0;
 }
 
 /*=================================================================
@@ -345,7 +250,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 10px;
     padding: 20px 9px;
   }
-  
   .navigation.sticky-header .navbar-toggle {
     border: 1px solid #dedede;
   }
@@ -355,26 +259,14 @@ h1, h2, h3, h4, h5, h6 {
   .navigation.sticky-header .navbar-nav > li > a {
     padding: 16px 9px;
   }
-  .counters-item:before {
-    display: none;
-  }
 }
 
 /*============================================================
 	Tablet (Portrait) Design for a width of 768px
 ==============================================================*/
 @media (min-width: 768px) and (max-width: 979px) {
-  .counters-item:before {
-    display: none;
-  }
-  /* navigation */
   .navbar-inverse .navbar-nav li a {
     padding: 20px 10px;
-  }
-  
-
-  .counters-item {
-    margin-bottom: 30px;
   }
 }
 /*============================================================
@@ -412,16 +304,6 @@ h1, h2, h3, h4, h5, h6 {
   .navbar .logo-default {
     display: block;
   }
-  .hero-area .block h1 {
-    font-size: 50px;
-  }
-  .title p {
-    width: 100%;
-  }
-  .counters-item:before {
-    display: none;
-  }
-  /* navigation */
   .navbar-fixed-top {
     padding-bottom: 10px;
   }
@@ -440,7 +322,12 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     border-bottom: 1px solid transparent;
   }
-
+  .hero-area .block h1 {
+    font-size: 50px;
+  }
+  .title p {
+    width: 100%;
+  }
 }
 
 /*============================================================
@@ -450,10 +337,6 @@ h1, h2, h3, h4, h5, h6 {
   .title h2 {
     font-size: 32px;
   }
-  .counter .counter-title h2 {
-    font-size: 35px;
-  }
-  /* navigation */
   .navigation .navbar-toggle {
     border: 1px solid #dedede;
   }
@@ -465,14 +348,6 @@ h1, h2, h3, h4, h5, h6 {
   }
   .navbar-brand {
     padding: 10px 0 10px 10px;
-  }
-  .navbar-inverse .navbar-toggle {
-    border-color: #6CB670;
-    border-radius: 0;
-  }
-  .navbar-inverse .navbar-toggle:hover {
-    border-color: #fff;
-    border-radius: 0;
   }
   .navbar-collapse.in {
     overflow-y: inherit;
@@ -487,5 +362,3 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 2px solid transparent;
   }
 }
-
-/*# sourceMappingURL=maps/style.css.map */
