@@ -123,6 +123,15 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   z-index: -1;
 }
+.page-404 h1{
+  color: #000;
+}
+.page-404 h2{
+  color: #000;
+}
+.page-404 p{
+  color: #000;
+}
 
 /*=================================================================
   Navigation
