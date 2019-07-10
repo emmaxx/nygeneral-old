@@ -269,6 +269,9 @@ h1, h2, h3, h4, h5, h6 {
   .navigation.sticky-header .navbar-nav > li > a {
     padding: 16px 9px;
   }
+  .hero-area {
+    height: 60vh;
+  }
 }
 
 /*============================================================
@@ -277,6 +280,9 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 768px) and (max-width: 979px) {
   .navbar-inverse .navbar-nav li a {
     padding: 20px 10px;
+  }
+  .hero-area {
+    height: 80vh;
   }
 }
 /*============================================================
@@ -338,6 +344,16 @@ h1, h2, h3, h4, h5, h6 {
   .title p {
     width: 100%;
   }
+  .hero-area {
+    height: 60vh;
+    padding: 100px 0 0 0;
+  }
+  #mission-statement{
+    height: 120vh;
+  }
+  #mission-statement .block p{
+    width: 100%;
+  }
 }
 
 /*============================================================
@@ -370,5 +386,8 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
     text-align: center;
     border-bottom: 2px solid transparent;
+  }
+  .hero-area {
+    height: 80vh;
   }
 }
