@@ -7,14 +7,15 @@ body {
 }
 
 p {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "helvetica", sans-serif;
   color: #fff;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Catamaran", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
+  padding: 15px 0 0 0;
   color: #fff;
 }
 
@@ -108,13 +109,17 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 60px;
   font-weight: 700;
   margin-bottom: 20px;
+  margin-left: 50px;
   text-transform: uppercase;
 }
 
 .hero-area .block p {
   color: #fff;
-  width: 50%;
   margin-bottom: 20px;
+}
+
+#mission-statement{
+  height: 60vh;
 }
 
 .dark-bg {
