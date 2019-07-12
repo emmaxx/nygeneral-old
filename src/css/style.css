@@ -12,7 +12,7 @@ p {
   font-size: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
   font-family: "Catamaran", sans-serif;
   font-weight: 700;
   padding: 15px 0 0 0;
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero-area {
   background-size: cover;
-  height: 40vh;
+  height: 50vh;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 20px;
 }
 
-#mission-statement{
+#leader{
   height: 60vh;
 }
 
@@ -197,7 +197,6 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   background-color: #fff;
   border-top: 1px solid #2c2c2c;
-  padding: 30px 0;
 }
 
 .footer h5 {
@@ -207,8 +206,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-top: 7px;
-  margin-bottom: 3px;
 }
 
 .footer h6 {
@@ -218,7 +215,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   text-transform: capitalize;
   letter-spacing: 2px;
-  margin-bottom: 0;
 }
 
 .footer-nav{
