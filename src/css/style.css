@@ -253,10 +253,7 @@ h1, h2, h3, h4 {
   padding: 40px 40px 0 40px;
 }
 
-.team .member-photo:hover img {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
+
 
 .team .member-photo img {
   transition: all 0.6s ease 0s;
